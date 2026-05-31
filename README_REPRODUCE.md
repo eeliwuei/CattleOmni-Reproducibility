@@ -15,6 +15,10 @@ per-analysis notes) to a result file and the script that produced it.
 - **Japanese Black (snp3)** additive/dominance relationship matrices are subject to their original
   access conditions; no individual genotypes are distributed.
 - No `.npy`/`.vcf`/`.bed`/`.bim`/`.fam` or per-animal source files are committed (see `.gitignore`).
+- **Holstein phenotype provenance:** phenotypes were available only as **pre-adjusted records**; the
+  fixed-effect correction model is **not recoverable** from the supplied files. They are treated as
+  the dataset-defined response; no fixed effects are re-estimated in this pipeline (no fold-level
+  leakage), and the provider-side correction model is an acknowledged provenance limitation.
 
 ## 3. Environment
 Python 3.10 (NumPy, SciPy, scikit-learn, PyTorch, Matplotlib); R 4.1 + BGLR for the Bayesian-ridge

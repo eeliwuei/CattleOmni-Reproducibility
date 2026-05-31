@@ -6,3 +6,8 @@
 - Abstract leakage wording corrected: pure leakage (+0.18..+0.29) vs total inflation (+0.20..+0.38) separated.
 - Main-text p-values reported as p<0.001 (exact in audit); effect size + bootstrap CI primary.
 - Title shortened; figure arrows removed; Table 2 width fixed (tabularx).
+
+## Holstein phenotype adjustment provenance (Case C)
+Holstein phenotype adjustment provenance = pre-adjusted records only; correction model not
+recoverable; treated as dataset-defined response; no raw fixed-effect re-estimation performed
+(no pipeline leakage, but a dataset-provenance limitation).
