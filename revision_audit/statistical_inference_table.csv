@@ -1,0 +1,7 @@
+analysis,test,pairing_unit,n_units,ci_bootstrap
+random-CV MLP vs tuned GBLUP (R2),paired t/Wilcoxon,outer fold,50,Fisher-z/fold bootstrap
+group10/group5/LCO delta (R3),paired t/Wilcoxon,group fold or held-out cluster,10/5/10,fold/cluster bootstrap
+within-cluster delta (R4),paired sample-weighted,(fold x cluster) residual pool,NA,fold bootstrap
+leakage pure/total (R5),paired t/Wilcoxon,outer fold,10,10000x fold bootstrap seed20260529
+snp3 matched-N (R6),paired,matched split repeat,per-regime,matched-repeat
+abstention (R7),retained vs random-abstention band,coverage grid,NA,random-abstention repeats

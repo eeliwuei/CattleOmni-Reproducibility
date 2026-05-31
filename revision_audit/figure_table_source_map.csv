@@ -1,0 +1,5 @@
+item,source_file,script
+Table 4 (leakage),results/leakage_3arm/leak_matched_stats.json,src/models/leak_matched.py
+Figure 4 (leakage 3-arm),results/leakage_3arm/leak_matched_summary.json,figures/replot (matplotlib)
+Suppl Table grmsens,results/grm_sensitivity/grm_foldint_sens.csv,src/audit/grm_foldint_sens.py
+Suppl Table distsens,results/clustering_distance_sensitivity/clust_dist_sens.csv,src/audit/clust_dist_sens.py

@@ -1,0 +1,12 @@
+claim,section,figure_table,source_result_file,script,dataset,regime,metric,unit,role,wording_ok
+"MLP-GBLUP random-CV +0.0296",R2,"Table tab:delta",results/tables/fold_metrics_full.csv,src/models/run_holstein_benchmark.py,Holstein,random,Pearson,fold(n=50),primary,yes
+"relationship-aware +0.0134/+0.0143/+0.0039 n.s.",R3,"Table tab:delta; Fig 2",results/tables/fold_metrics_full.csv,src/models/run_holstein_benchmark.py,Holstein,group10/group5/lco,Pearson,fold,primary,yes
+"pooled vs within-cluster aggregation",R4,"Table tab:rankcal; Fig 4(agg)",results/tables/holstein_per_sample.csv,src/evaluation/within_cluster_repro.py,Holstein,all,Pearson,fold-cluster,primary,yes
+"pure cross-split leakage +0.18..+0.29",R5,"Table tab:leak; Fig 4",results/leakage_3arm/leak_matched_stats.json,src/models/leak_matched.py,Holstein,random,Pearson,fold(n=10),primary,yes
+"total positive-control inflation +0.20..+0.38",R5,"Table tab:leak",results/leakage_3arm/leak_matched_stats.json,src/models/leak_matched.py,Holstein,random,Pearson,fold(n=10),primary,yes
+"snp3 sample-size confound matched-N flat",R6,"Table tab:snp3; Fig 5",results/tables/snp3_ladder_metrics.csv,src/evaluation/snp3_ladder.py,JapaneseBlack,matched-N=500,R2-vs-mean,split-repeat,secondary,yes
+"abstention retained-set skill 50pct cov",R7,"Table tab:risk; Fig 6",results/tables/A7_RISK_COVERAGE.csv,src/evaluation/a7_risk_coverage.py,Holstein,random,R2-vs-mean,coverage,corollary,yes
+"h2 milk 0.52/fat 0.34/scs 0.07",Methods/R4,"Table 1",results/metrics/h2_reml.csv,src/evaluation/h2_reml.py,Holstein,NA,REML h2,trait,primary,yes
+"GRM fold-internal sensitivity unchanged",Methods/Suppl,"Table tab:grmsens",results/grm_sensitivity/grm_foldint_sens.csv,src/audit/grm_foldint_sens.py,Holstein,all,Pearson,fold,robustness,yes
+"clustering-distance sensitivity invariant",Methods/Suppl,"Table tab:distsens",results/clustering_distance_sensitivity/clust_dist_sens.csv,src/audit/clust_dist_sens.py,Holstein,all,within-Delta,fold-cluster,robustness,yes
+"build/coordinate audit stops annotation",R8,"Suppl",results/a6_audit/,src/audit/a6_stability.py,Holstein,NA,liftover-QC,SNP,claim-control,yes

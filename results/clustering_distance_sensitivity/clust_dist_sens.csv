@@ -1,0 +1,4 @@
+distance,within_delta_random,within_delta_group10,within_delta_group5,within_delta_lco
+max(G)-G,0.0347,0.0321,0.0302,0.0055
+euclidean,0.0291,0.0322,0.0383,0.0007
+1-normG,0.0348,0.0356,0.0383,0.0074

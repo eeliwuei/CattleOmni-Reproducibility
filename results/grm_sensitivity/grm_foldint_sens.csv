@@ -1,0 +1,5 @@
+regime,nfold,gblup_globalGRM,gblup_foldintGRM,diff
+random,10,0.4400,0.4395,-0.0005
+group10,10,0.3387,0.3558,0.0170
+group5,5,0.2929,0.3460,0.0531
+lco,9,0.4460,0.4798,0.0338
