@@ -1,0 +1,15 @@
+# Path and run configuration. Paths are relative to the repository root.
+# Real genotype/phenotype data are NOT distributed; place processed inputs under
+# data/processed/holstein/ following data/README.md, or override the roots below.
+data_root: data/processed
+work_root: .
+seed: 20260529
+holstein:
+  parse_qc: data/processed/holstein/parse_qc
+  relationship_splits: data/processed/holstein/relationship_splits
+  trait: milk_le_sum_305
+validation:
+  random_folds: 50        # repeated 5-fold x 10
+  group_kfold: [5, 10]
+  leave_cluster_out_k: 10
+  budget_tau: [0.20, 0.15, 0.10, 0.07, 0.05]

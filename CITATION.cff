@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript."
+title: "Decomposing evaluation artefacts in cattle genomic prediction"
+authors:
+  - family-names: Liu
+    given-names: Wei
+  - family-names: Park
+    given-names: Sungkwon
+  - family-names: Fu
+    given-names: Zhiqi
+  - family-names: Ma
+    given-names: Rui
+  - family-names: Li
+    given-names: Xiangzi
+  - family-names: Yan
+    given-names: Changguo
+preferred-citation:
+  type: article
+  title: "Decomposing evaluation artefacts in cattle genomic prediction: baseline tuning, relatedness, aggregation, and leakage"
+  year: 2026
+  status: in-preparation
