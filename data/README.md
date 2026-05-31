@@ -27,3 +27,10 @@ recoverable** from the supplied files. They are treated as the dataset-defined r
 records or fixed-effect covariates are included, and no fixed-effect re-estimation is performed in
 this pipeline — so there is no fold-level phenotype-adjustment leakage, but the provider-side
 correction model is an acknowledged dataset-provenance limitation.
+
+## snp3 (Japanese Black / Wagyu) source — RESOLVED
+The snp3 additive/dominance relationship matrices and fixed-effect-adjusted carcass phenotypes are
+the publicly deposited data of Onogi, Watanabe, Ogino, Kurogi & Togashi (2021), *BMC Genomics*
+22:512, doi:10.1186/s12864-021-07792-y. Data: Dryad doi:10.5061/dryad.tdz08kpz4. N=9850; six
+carcass traits CW/REA/RT/SFT/YI/BMS. Individual SNP genotypes are not part of the Dryad deposit
+(relationship-matrix level only).

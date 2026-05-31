@@ -11,3 +11,8 @@
 Holstein phenotype adjustment provenance = pre-adjusted records only; correction model not
 recoverable; treated as dataset-defined response; no raw fixed-effect re-estimation performed
 (no pipeline leakage, but a dataset-provenance limitation).
+
+## snp3 provenance RESOLVED (web-verified)
+snp3 = Onogi et al. 2021 BMC Genomics 22:512 (doi:10.1186/s12864-021-07792-y); data Dryad
+doi:10.5061/dryad.tdz08kpz4. Matched on N=9850 + six traits CW/REA/RT/SFT/YI/BMS + A/D matrices.
+TODO_DATA_ACCESSION cleared.
