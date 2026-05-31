@@ -1,0 +1,8 @@
+# A6 build/coordinate audit config (paths relative to repo root).
+seed: 20260529
+ld_block:
+  r2_threshold: 0.2
+  window_mb: 1.0
+top_k_loci: 100
+source_build: Btau_4.6.1   # resolved by chromosome-length fingerprint
+target_build: ARS-UCD1.2   # via bosTau7 -> bosTau9 liftover (round-trip checked)
